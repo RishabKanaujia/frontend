@@ -64,7 +64,7 @@ const CreateProfile = () => {
       uid: currentUser.uid,
     };
     createUser(user).then(() => {
-      navigate("/user/" + user.uid);
+      navigate("/user/" + currentUser.uid);
     });
   };
 
