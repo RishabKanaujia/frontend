@@ -1,0 +1,17 @@
+.inputHolder {
+  height: fit-content;
+  
+}
+
+.inputHolder > input {
+  margin-bottom: 10px;
+  width: 94%;
+  padding: 3%;
+  border: none;
+  border-radius: 3px;
+  background-color: #F6F7F5;
+}
+
+.inputHolder>input:hover{
+    border: 1px solid #E0E2D9;
+}

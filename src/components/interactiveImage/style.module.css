@@ -1,0 +1,10 @@
+.imageHolder{
+    width: fit-content;
+    height: fit-content;
+
+}
+.imageHolder>img{
+    border-radius: 20px;
+    transform: translatez(60px);
+    width: 350px;
+}

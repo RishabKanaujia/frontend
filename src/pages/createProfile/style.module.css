@@ -1,0 +1,107 @@
+
+.loginForm button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .loginForm button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .loginForm button:active {
+    transform: translateY(1px);
+    box-shadow: none;
+  }
+  .name_phone{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    max-width: 500px;
+   margin: 10px;
+
+  }
+  .imagePlaceHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: large;
+
+    border: 1px solid;
+    border-radius: 10px;
+    aspect-ratio: 1;
+  }
+  
+  .name_phone img{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 10px;
+   
+    
+  }
+  
+
+  .bigdiv{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .bigdiv h1{
+    text-align: center;
+  }
+
+  .uploadbtn{
+
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .gender{
+    margin: 10px;
+    
+  }
+  .radioHolder{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .dob div{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .dob input{
+   padding: 20px;
+   font-size: larger;
+   border-radius: 5px;
+   background-color: #fcfcfc;
+   cursor: pointer;
+   /* color: white; */
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .dob input:focus{
+    outline: none;
+  }
+  .dob input:hover{
+    background-color: aliceblue;
+  }
+
+  .Next{
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  }

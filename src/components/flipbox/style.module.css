@@ -1,0 +1,36 @@
+.flipbox{
+    position: relative;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.frontbox {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 200px;
+  border-radius: 20px;
+  color: aliceblue;
+  transition: all 600ms;
+
+  
+}
+
+.backbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 200px;
+  border-radius: 20px;
+  color: aliceblue;
+  transition: all 600ms;
+  
+}
+
+.flip{
+
+    transform: rotateY(180deg);
+}
