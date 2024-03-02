@@ -1,10 +1,11 @@
 import axios from 'axios'
 import { getStorage, ref, getDownloadURL, uploadBytesResumable, uploadBytes } from "firebase/storage";
 
-const baseUrl = process.env.REACT_APP_BASE_URL
-
+const baseUrl = "https://backend-sigma-ashen.vercel.app/"
+console.log(baseUrl)
 export const getUserfromId = async (id)=>{
 const url = baseUrl + "/user/" + id
+
  try {
     return await axios.get(url)
  } catch (error) {
