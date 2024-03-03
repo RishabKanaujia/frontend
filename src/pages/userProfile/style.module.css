@@ -12,6 +12,7 @@
 
 
 .navbar{
+    z-index: 1;
     display: flex;
     width: 90%;
     padding: 1%;
