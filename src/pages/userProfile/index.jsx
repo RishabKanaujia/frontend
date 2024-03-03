@@ -49,7 +49,7 @@ const UserProfile = () => {
   const [qrSrc, setQrSrc] = useState("");
 
   const setQrcode = async () => {
-    const baseUrl = "https://b95b-103-88-236-139.ngrok-free.app";
+    const baseUrl = "https://frontend-beryl-nine-63.vercel.app";
     setQrSrc(await generateQRCode(baseUrl + url.pathname));
   };
 
