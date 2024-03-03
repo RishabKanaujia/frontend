@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { getStorage, ref, getDownloadURL, uploadBytesResumable, uploadBytes } from "firebase/storage";
 
-const baseUrl = "https://backend-sigma-ashen.vercel.app/"
+const baseUrl = "https://backend-sigma-ashen.vercel.app"
 console.log(baseUrl)
 export const getUserfromId = async (id)=>{
 const url = baseUrl + "/user/" + id
